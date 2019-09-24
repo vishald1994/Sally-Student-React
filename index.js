@@ -1,0 +1,35 @@
+function App(props) {
+    console.log(props)
+    return (
+        <div>
+            <header>
+                <address> 
+                    <h1>Sally Student's Resume</h1>
+                    <h2>Contact Information:</h2>
+                    <address> 
+			              Name:Sally Mae
+                    Email:<a href="Email:https://Sally.Mae@gmail.com">Sally.>Sally.Mae@gmail.com</a><br /><a href="Phone:123-456-7891">123-456-7891</a><br />
+                    <img src="https://ia.media-imdb.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_UX214_CR0,0,214,317_AL_.jpg" alt="Picture of Sally Student" title="Sally Student" />
+                </address>
+            </header>
+            <main>
+            <h2>Education:</h2>
+            <ul>
+                <li> Web Development, University of Thinkful, 2018 – 2019</li><br />
+                <li> Computer Science,  University of georgia, 2017 - 2018</li>
+            </ul>
+            <h2>Employment History:</h2>
+            <ul>
+                <li>Javascript Developer, 2015 - Present</li>
+                    <p>lorem ipsum</p><br />
+                <li>Cashier, Manager, 2010 - 2015</li>
+                    <p>lorem ipsum</p>
+            </ul>
+            </main>
+        </div>
+    );
+}
+ReactDOM.render(
+    <App />,
+    document.querySelector('#application-root')
+);
